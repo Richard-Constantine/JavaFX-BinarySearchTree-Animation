@@ -1,8 +1,8 @@
 # JavaFX-BinarySearchTree-Animation
 
 BST_Ver 1.0 is an application that building a binary search tree and displays it in an animated way.
-The user can implement that by entering numbers manually / upload a text file with the numbers.
-Also the user can search for the node in a given tree and print all tree traversals (PreOrder, InOrder and PostOrder.)
+the user can implement That by entering numbers manually / upload a text file with the numbers.
+also the user can search for the node in a given tree And print all tree traversals (PreOrder, InOrder and PostOrder.)
 
 **Tree Depth 5**
 
