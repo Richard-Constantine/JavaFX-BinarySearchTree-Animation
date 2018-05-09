@@ -1,0 +1,30 @@
+.root{
+    -fx-background-color: #ffcc00;
+}
+
+.button{
+    -fx-background-color:transparent;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-color: #ffcc00;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 12;
+    -fx-cursor: hand;
+    -fx-opacity:0.6;
+}
+
+.button:hover{
+    -fx-background-color: #ffcc00;
+    -fx-background-radius:12 ;
+    -fx-text-fill: black;
+
+}
+
+.separator{
+
+}
+
+.Circle{
+    -fx-border-color: yellow;
+
+}
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="whiteGhost" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="573.0" prefWidth="1380.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="valField" alignment="CENTER" layoutX="1126.0" layoutY="5.0" prefHeight="25.0" prefWidth="72.0" promptText="Value" />
+      <Text fx:id="status" fill="#fcf9f9" layoutX="375.0" layoutY="572.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="139.0" />
+      <Group layoutX="301.0" layoutY="342.0" />
+      <Separator layoutY="36.0" prefHeight="0.8" prefWidth="1365.0" />
+      <TextArea fx:id="textArea" layoutX="-1.0" layoutY="667.0" prefHeight="6.0" prefWidth="1366.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextArea>
+      <Button layoutX="994.0" layoutY="5.0" mnemonicParsing="false" onAction="#insertButton" prefHeight="25.0" prefWidth="88.0" text="Insert" />
+      <Button layoutX="514.0" layoutY="48.0" mnemonicParsing="false" onAction="#buildButton" prefHeight="25.0" prefWidth="88.0" text="Build">
+         <font>
+            <Font name="Leelawadee UI Semilight" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="5.0" mnemonicParsing="false" onAction="#searchButton" prefHeight="25.0" prefWidth="97.0" text="Search" />
+      <Button layoutX="787.0" layoutY="48.0" mnemonicParsing="false" onAction="#clearButton" prefHeight="25.0" prefWidth="97.0" text="Clear Tree!">
+         <font>
+            <Font name="Leelawadee UI Semilight" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="1247.0" layoutY="5.0" mnemonicParsing="false" onAction="#loadButton" prefHeight="25.0" prefWidth="88.0" text="Load" />
+      <Button layoutX="145.0" layoutY="5.0" mnemonicParsing="false" onAction="#preOrderButton" prefHeight="25.0" prefWidth="97.0" text="PreOrder" />
+      <Button layoutX="272.0" layoutY="5.0" mnemonicParsing="false" onAction="#inOrderButton" prefHeight="25.0" prefWidth="97.0" text="InOrder" />
+      <Button layoutX="404.0" layoutY="5.0" mnemonicParsing="false" onAction="#postOrderButton" prefHeight="25.0" prefWidth="97.0" text="PostOrder" />
+   </children>
+</Pane>

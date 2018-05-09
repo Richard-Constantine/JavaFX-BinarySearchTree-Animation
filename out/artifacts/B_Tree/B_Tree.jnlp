@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="B_Tree.jnlp">
+    <information>
+        <title>B_Tree</title>
+        <vendor>Unknown</vendor>
+        <description>B_Tree</description>
+        <offline-allowed/>
+    </information>
+    <update check="background"/>
+    <resources>
+        <j2se version="10+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="B_Tree.jar" size="17763" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="600" height="400" main-class="sample.Main" name="B_Tree"/>
+</jnlp>
+
